@@ -3,28 +3,13 @@ body {font-family: 'Roboto', sans-serif;}
 .row {margin: 0;}
 p, a {color: #444; font-size: 16px;}
 /*==========BARRA DE NAVEGAÇÃO==========*/
-header, .navbar{
-    background-image: url(../imagens/topo.png);
-    background-color: #609e1c;
-    padding: 5px 145px;
-}
-#logo{
-    width: 190px;
-    height: 140px;
-}
+header, .navbar {background-image: url(../imagens/topo.png); background-color: #609e1c; padding: 5px 145px;}
+#logo {width: 190px; height: 140px;}
 .navbar-brand:hover {opacity: .5;}
-.navbar-nav{
-    background-color: #008000;
-    border-radius: 10px;
-}
-.navbar-nav a{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
+.navbar-nav {background-color: #008000; border-radius: 10px;}
+.navbar-nav a {color: #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px;}
 .navbar-expand-md .navbar-nav .nav-link {padding: 1rem 1.3rem;}
-.navbar-expand-md .navbar-nav .nav-link:hover {
-    background-color: #32cd28;
-    color: #444;
-}
+.navbar-expand-md .navbar-nav .nav-link:hover {background-color: #32cd28; color: #444;}
+/*==========CAROUSEL==========*/
+.container-fluid {padding: 5px 145px; margin-top: 150px; background-color: #333333;}
+#main-slider img {width: 1282px; height: 350px; padding: 5px; border: 5px solid #fff;}

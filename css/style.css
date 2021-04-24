@@ -4,7 +4,7 @@ body {font-family: 'Roboto', sans-serif;}
 p, a {font-size: 16px;}
 li {list-style: none;}
 /*==========BARRA DE NAVEGAÇÃO==========*/
-header, .navbar {background-image: url(../imagens/topo.png); background-color: #609e1c; padding: 5px 145px;}
+header, .navbar {background-image: url(../imagens/topo.png); background-color: #609e1c; padding: 2px 29px;}
 #logo {width: 190px; height: 140px;}
 .navbar-brand:hover {opacity: .5;}
 .navbar-nav {background-color: #008000; border-radius: 10px;}
@@ -12,7 +12,7 @@ header, .navbar {background-image: url(../imagens/topo.png); background-color: #
 .navbar-expand-md .navbar-nav .nav-link {padding: 1rem 1.3rem;}
 .navbar-expand-md .navbar-nav .nav-link:hover {background-color: #32cd28; color: #444;}
 /*==========CAROUSEL==========*/
-.container-fluid {padding: 5px 145px; margin-top: 150px; background-color: #333333;}
+.container-fluid {padding: 5px 145px; background-color: #333333;}
 #main-slider img {width: 1282px; height: 350px; padding: 5px; border: 5px solid #fff;}
 /*==========ADOÇÃO (CARDS)==========*/
 #adocao {padding: 5px;}
@@ -45,11 +45,17 @@ margin-top: 10px;}
     text-align: center          /*Centraliza botão*/
 }
 #fale-conosco .col-md-6 .form-group input {margin: 10px 10px 10px 5px; padding: 15px; background: #e9e9e9; 
-border: 1px solid #ddd;
-text-align: left; height: 50px;}
+border: 1px solid #ddd; text-align: left; height: 50px;}
 #fale-conosco .col-md-6 .form-group textarea {margin: 10px 10px 10px 5px; margin-bottom: 20px; background: #e9e9e9; 
 border: 1px solid #ddd;}
 #fale-conosco .col-md-6 .form-group a {padding: 15px 50px; border-radius: 10px; height: 50px; line-height: 20px; margin-left: 25px;}
+/*==========FOOTER==========*/
+footer {text-align: center; background-color: #333; color: #ccc; padding: 5px 0 30px;}
+footer span {font-size: 0.9em; font-weight: bold;}
+footer p {font-size: 0.8em;}
+footer .imagens-footer a + a {margin-left: 50px;}
+footer .imagens-footer a:hover {opacity: .6;}
+
 
 
 

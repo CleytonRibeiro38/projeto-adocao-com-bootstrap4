@@ -73,6 +73,23 @@ footer .imagens-footer a:hover {opacity: .6;}
     /*FALE CONOSCO*/
     .col-md-6 .titulo {margin-top: 10px;}
 }
+@media (min-width: 577px) and (max-width: 767px) { 
+    /*BARRA DE NAVEGAÇÃO*/
+    header, .navbar {padding: 0;}
+    #logo {width: 150px; height: auto;}
+    #nav-container nav button {background-color: #008000;}
+    /*CAROUSEL*/
+    .container-fluid {padding: 5px;}
+     /*ADOÇÃO (CARDS)*/
+     .col-md-3 .card .card-body p {font-size: 15px;}
+    /*VÍDEOS*/
+    #videos video, #videos iframe {width: 100%;}
+    #videos .col-md-3 {text-align: center;}
+    .col-md-3 h2 {margin-top: 15px;}
+    /*FALE CONOSCO*/
+    .col-md-6 .titulo {margin-top: 10px;}
+ }
+
 
 
 

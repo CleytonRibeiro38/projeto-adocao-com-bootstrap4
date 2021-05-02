@@ -55,6 +55,25 @@ footer span {font-size: 0.9em; font-weight: bold;}
 footer p {font-size: 0.8em;}
 footer .imagens-footer a + a {margin-left: 50px;}
 footer .imagens-footer a:hover {opacity: .6;}
+/*==========MEDIA QUERIES==========*/
+@media (max-width: 576px){
+    /*BARRA DE NAVEGAÇÃO*/
+    header, .navbar {padding: 0;}
+    #logo {width: 150px; height: auto;}
+    #nav-container nav button {background-color: #008000;}
+    /*CAROUSEL*/
+    .container-fluid {padding: 5px;}
+    #main-slider img {width: auto; height: 215px;}
+    /*ADOÇÃO (CARDS)*/
+    #adocao {padding: 0;}
+    .titulo {font-size: 1.5em;}
+    /*VÍDEOS*/
+    .col-md-3 {text-align: center;}
+    .col-md-3 h2 {margin-top: 10px;}
+    /*FALE CONOSCO*/
+    .col-md-6 .titulo {margin-top: 10px;}
+}
+
 
 
 
